@@ -1,10 +1,16 @@
 ---
 layout: page
-title: Firmware
+title: Firmware herunterladen
 permalink: /firmware/
 ---
 
-Wir unterstützen aktuell verschiedene Routermodelle. Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
+## Vor dem Kauf
+
+Wir unterstützen aktuell verschiedene Routermodelle. Am Besten siehst Du vor dem Kauf nach welchen Router-Typ und Hardware-Version wir unterstüzten. Oft bringen Hersteller neue Hardware-Versionen eines Routers auf den Markt, für diese können wir erst oft nach einiger Zeit oder garnicht passende Firmware anbieten. Es kann daher sinnvoll sein gebrauchte Router (die wahrscheinlich eine ältere Hardware-Version sind) oder Router bei einem Treffen zu kaufen.
+
+## Router-Daten herausfinden
+
+Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
 
 ![Modell und Version](/assets/router-flashen/guide-14.jpg)
 
@@ -12,9 +18,9 @@ Aktuell bevorzugen wir wegen des guten Preis-Leistungsverhältnises den TP-Link 
 
 Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
-## Images
+## Passende Firmware herunterladen
 
-Hier kannst du die entsprechende [Freifunk München Firmware](http://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
+Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net]
 [hardware].
@@ -34,7 +40,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option value="onion">Onion</option>
   <option value="openmesh">OpenMesh</option>
   <option value="raspberry">Raspberry</option>
-  <option value="tp-link">TP-Link</option>
+  <option value="tp-link" selected>TP-Link</option>
   <option value="ubiquiti">Ubiquiti</option>
   <option value="wd">Western Digital</option>
   <option value="x86">x86</option>
@@ -56,14 +62,14 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="d-link" value="dir-615">DIR-615</option>
   <option data-option="d-link" value="dir-825">DIR-825</option>
   <option data-option="gl-inet" value="6408a">6408A</option>
-  <option data-option="gl-inet" value="6416a">6416A</option>  
+  <option data-option="gl-inet" value="6416a">6416A</option>
   <option data-option="linksys" value="wrt160nl">WRT160NL</option>
   <option data-option="netgear" value="wndr3700">WNDR3700</option>
   <option data-option="netgear" value="wndr3700v2">WNDR3700v2</option>
   <option data-option="netgear" value="wndr3700v4">WNDR3700v4</option>
   <option data-option="netgear" value="wndr3800">WNDR3800</option>
   <option data-option="netgear" value="wndr4300">WNDR4300</option>
-  <option data-option="netgear" value="wndrmacv2">WNDRMACv2</option>  
+  <option data-option="netgear" value="wndrmacv2">WNDRMACv2</option>
   <option data-option="onion" value="omega">OMEGA</option>
   <option data-option="openmesh" value="mr1750">MR1750</option>
   <option data-option="openmesh" value="mr1750v2">MR1750v2</option>
@@ -106,17 +112,17 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tp-link" value="tl-wdr4300">TL-WDR4300</option>
   <option data-option="tp-link" value="tl-wdr4900">TL-WDR4900</option>
   <option data-option="tp-link" value="tl-wr1043n-nd">TL-WR1043N/ND</option>
-  <option data-option="tp-link" value="tl-wr2543n-nd">TL-WR2543N/ND</option>  
+  <option data-option="tp-link" value="tl-wr2543n-nd">TL-WR2543N/ND</option>
   <option data-option="tp-link" value="tl-wr703n">TL-WR703N</option>
   <option data-option="tp-link" value="tl-wr710n">TL-WR710N</option>
   <option data-option="tp-link" value="tl-wr740n-nd">TL-WR740N/ND</option>
   <option data-option="tp-link" value="tl-wr741n-nd">TL-WR741N/ND</option>
   <option data-option="tp-link" value="tl-wr743n-nd">TL-WR743N/ND</option>
   <option data-option="tp-link" value="tl-wr841n-nd">TL-WR841N/ND</option>
-  <option data-option="tp-link" value="tl-wr842n-nd">TL-WR842N/ND</option>
+  <option data-option="tp-link" value="tl-wr842n-nd" selected>TL-WR842N/ND</option>
   <option data-option="tp-link" value="tl-wr843n-nd">TL-WR843N/ND</option>
   <option data-option="tp-link" value="tl-wr940n-nd">TL-WR940N/ND</option>
-  <option data-option="tp-link" value="tl-wr941n-nd">TL-WR941N/ND</option>  
+  <option data-option="tp-link" value="tl-wr941n-nd">TL-WR941N/ND</option>
   <option data-option="ubiquiti" value="airgateway">AirGateway</option>
   <option data-option="ubiquiti" value="airrouter">AirRouter</option>
   <option data-option="ubiquiti" value="bullet-m">Bullet M</option>
@@ -138,7 +144,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="ubiquiti" value="unifiap-outdoor+">UniFi Outdoor+</option>
   <option data-option="ubiquiti" value="unifiap-outdoor">UniFi Outdoor</option>
   <option data-option="wd" value="my-net-n600">My Net N600</option>
-  <option data-option="wd" value="my-net-n750">My Net N750</option>  
+  <option data-option="wd" value="my-net-n750">My Net N750</option>
   <option data-option="x86" value="vmi32">Virtual Machine Images (x86)</option>
   <option data-option="x86" value="vmi64">Virtual Machine Images (x86-64)</option>
 </select>
@@ -159,16 +165,16 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="dir-505" value="rev-a1">rev A1</option>
   <option data-option="dir-505" value="rev-a2">rev A2</option>
   <option data-option="dir-615" value="rev-c1">rev C1</option>
-  <option data-option="dir-825" value="rev-b1">rev B1</option>  
+  <option data-option="dir-825" value="rev-b1">rev B1</option>
   <option data-option="6408a" value="v1">v1</option>
-  <option data-option="6416a" value="v1">v1</option>  
+  <option data-option="6416a" value="v1">v1</option>
   <option data-option="wrt160nl" value="">factory</option>
   <option data-option="wndr3700" value="">factory</option>
   <option data-option="wndr3700v2" value="">factory</option>
   <option data-option="wndr3700v4" value="">factory</option>
   <option data-option="wndr3800" value="">factory</option>
   <option data-option="wndr4300" value="">factory</option>
-  <option data-option="wndrmacv2" value="">factory</option>  
+  <option data-option="wndrmacv2" value="">factory</option>
   <option data-option="omega" value="">factory</option>
   <option data-option="mr1750" value="">factory</option>
   <option data-option="mr1750v2" value="">factory</option>
@@ -183,9 +189,9 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="om2p-hsv3" value="">factory</option>
   <option data-option="om2p-lc" value="">factory</option>
   <option data-option="om5p" value="">factory</option>
-  <option data-option="om5p-ac" value="">factory</option>   
-  <option data-option="om5p-acv2" value="">factory</option>   
-  <option data-option="om5p-an" value="">factory</option>   
+  <option data-option="om5p-ac" value="">factory</option>
+  <option data-option="om5p-acv2" value="">factory</option>
+  <option data-option="om5p-an" value="">factory</option>
   <option data-option="pi" value="">1.x</option>
   <option data-option="pi" value="2">2.x</option>
   <option data-option="archer-c5" value="v1">1.x</option>
@@ -220,7 +226,6 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tl-wa901n-nd" value="v1">1.x</option>
   <option data-option="tl-wa901n-nd" value="v2">2.x</option>
   <option data-option="tl-wa901n-nd" value="v3">3.x</option>
-  <option data-option="tl-wa901n-nd" value="v4">4.x</option>
   <option data-option="tl-wdr3500" value="v1">1.x</option>
   <option data-option="tl-wdr3600" value="v1">1.x</option>
   <option data-option="tl-wdr4300" value="v1">1.x</option>
@@ -253,7 +258,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tl-wr841n-nd" value="v11">11.x</option>
   <option data-option="tl-wr842n-nd" value="v1">1.x</option>
   <option data-option="tl-wr842n-nd" value="v2">2.x</option>
-  <option data-option="tl-wr842n-nd" value="v3">3.x</option>
+  <option data-option="tl-wr842n-nd" value="v3" selected>3.x</option>
   <option data-option="tl-wr843n-nd" value="v1">1.x</option>
   <option data-option="tl-wr940n-nd" value="v1">1.x</option>
   <option data-option="tl-wr940n-nd" value="v2">2.x</option>
@@ -321,7 +326,6 @@ function giveSelection(box,selValue) {
     giveSelection(2,sel.value);
   }
 }
-giveSelection(1,sel1.value);
 
 function getImage(code,type,url,gluon) {
   var el1 = document.getElementById('brand');
@@ -340,7 +344,7 @@ function getImage(code,type,url,gluon) {
   if(type === 'sysupgrade') {
     imgURL += '-' + type;
   }
-  if(version === 'kvm' || version == '64' || version === 'generic') {
+  if( model == 'pi' || version === 'kvm' || version == '64' || version === 'generic') {
     imgURL += '.img.gz';
   } else if(version == '64-virtualbox' || version === 'virtualbox') {
     imgURL += '.vdi';
@@ -349,7 +353,16 @@ function getImage(code,type,url,gluon) {
   } else {
     imgURL += '.bin';
   }
-  window.location = imgURL;
+
+  $.ajax({
+          type: "GET",
+          url: imgURL
+        }).done(function (result) {
+          console.log("working");
+          window.location.href = imgURL;
+       }).fail(function () {
+          alert("Entschuldige, die Firmware gibt es als Stable gerade nicht, bitte schau doch mal kurz unter https://firmware.ffmuc.net nach, dort wirst du bestimmt eine passende finden.");
+       });
 }
 </script>
 
@@ -358,7 +371,7 @@ function getImage(code,type,url,gluon) {
   <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','https://firmware.ffmuc.net/stable/','v2016.0');">Aktualisierung</button>
 
 <br>
-<a href="http://firmware.ffmuc.net/stable/">Direktlinks</a>
+<a href="https://firmware.ffmuc.net/stable/">Direktlinks</a>
 
 </div>
 
@@ -367,7 +380,7 @@ Ist bereits eine Freifunk München Firmware oder OpenWRT bzw. LEDE installiert w
 
 ## Segmente
 
-Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
+Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 3 Segmente "Kernbereich", "Umland" und "Welcome" aufzuteilen. Mehr Informationen findest du in der [Wiki](https://ffmuc.net/wiki/p/Segmente#Die_aktuellen_Segmente). <br>
 Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden.
 
 **Wähle bitte den Bereich in dem sich dein Knoten befinden wird während der Konfiguration deines Routers aus.**
@@ -454,5 +467,5 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
  - Use internal NTP server 0.ntp.ffmuc.net
  - Connections from nodes to gateways only over IPv4 for now (MTU issues)
 
-[hardware]: http://wiki.freifunk.net/Kategorie:Hardware
+[hardware]: https://wiki.freifunk.net/Kategorie:Hardware
 [router-flashen]: /router-flashen/
