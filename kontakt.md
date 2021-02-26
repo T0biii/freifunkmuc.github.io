@@ -6,17 +6,22 @@ permalink: /kontakt/
 
 {% include treffen.md %}
 
-E-Mail: [muenchen@freifunk.net](mailto:muenchen@freifunk.net) (öffentlich!)
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
-IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](https://www.darkfasel.net)) - IRC-Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Developer Chat](https://webirc.darkfasel.net/#freifunk-dev)
+### Chat
 
-[Chat für Projekte](https://chat.ffmuc.net/)
+Mattermost: [https://chat.ffmuc.net](https://chat.ffmuc.net/) / [Firmware Development](https://chat.ffmuc.net/freifunk/channels/firmware)
+
+IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](https://www.darkfasel.net))
 
 ### Presse
 
 E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
+
+### Kontakt / Hilfe / Ticketsystem
+
+E-Mail: [hilfe@ffmuc.bayern](mailto:hilfe@ffmuc.bayern) / Telegram: [@ffmuc_help_bot](https://t.me/ffmuc_help_bot) / Web: [tickets.ffmuc.net](https://tickets.ffmuc.net)
 
 ### Abuse Kontakt / Anlaufstelle für Auskunftsersuchen
 
@@ -24,6 +29,7 @@ E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
 
 ### Mailingliste
 
+[muenchen@freifunk.net](mailto:muenchen@freifunk.net) (Öffentliche Mailingliste!)
 [Allgemeine Mailingliste Freifunk München][allgListe] \\
 [Mailingliste für EntwicklerInnen und Technikinteressierte][devListe] \\
 [Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]

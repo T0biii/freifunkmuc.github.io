@@ -6,7 +6,7 @@ permalink: /mitmachen/
 
 ## Werde FreifunkerIn
 
-Prima! Du hast Dich entschieden bei Freifunk mitzumachen und somit ist der schwierige Prozeß der Entscheidung erfolgreich absolviert. Wir befinden uns derzeit noch in der Beta-Phase. Falls sich bereits eine Freifunk Wolke (“Mesh-Netzwerk”) in unmittelbarer Umgebung befindet, braucht man nur einen eigenen Knoten ans Fenster zu stellen und mit etwas Strom aus der Steckdose versorgen. Die verwendeten Geräte sind sehr genügsam.
+Prima! Du hast Dich entschieden bei Freifunk mitzumachen und somit ist der schwierige Prozeß der Entscheidung erfolgreich absolviert. Falls sich bereits eine Freifunk Wolke (“Mesh-Netzwerk”) in unmittelbarer Umgebung befindet, braucht man nur einen eigenen Knoten ans Fenster zu stellen und mit etwas Strom aus der Steckdose versorgen. Die verwendeten Geräte sind sehr genügsam.
 
 Falls sich in Deiner Nachbarschaft noch keine FreifunkerInnen befinden und die Entfernung zur nächsten Wolke einfach zu groß ist, musst Du den Freifunk Router an Dein heimische Netzwerk anschließen. Damit ermöglichst Du, dass sich Dein neuer Knoten mit einem der zentralen Gateways der Community über Deine Internet-Verbindung verbinden kann. Keine Sorge, Du bestimmst wie viel Bandbreite Du dafür reservieren möchtest. Der Freifunk Knoten greift nicht auf Dein lokales Netzwerk zu. Falls Dein Router ein Gäste-Netzwerk unterstützt, dann schließe bitte dort Deinen Freifunk Knoten an (FritzBox-Nutzer beachten bitte den Punkt ["Mein Knoten funktioniert nicht am Gastzugang der FritzBox"][faq] in den FAQ). Vertrauen ist gut aber zusätzliche Sicherheitsmassnahmen sind besser.
 
@@ -43,9 +43,10 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * TP-Link TL-WR841N, bis Version 11.0. Ihr könnt bei uns nachfragen, wie ihr an alte Geräte kommt. (ca. 16&nbsp;€)
-  * TL-WDR4300 (ca. 45&nbsp;€)
-  * Ubiquiti Enterprise AP UAP, geeignet für Restaurants (ca. 60&nbsp;€)
+  * GL.INET GL-AR150 (ca. 20&nbsp;€)
+  * NETGEAR R6120 - AC1200 (ca. 37&nbsp;€)
+  * NETGEAR EX6150v2 - AC1200 (ca. 55&nbsp;€)
+  * Ubiquiti UAP-AC-LITE (ca. 80&nbsp;€)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
 </div>
@@ -70,8 +71,8 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * TP-Link CPE210
+* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  * Ubiquiti UAP-AC-Mesh
   * Ubiquiti NanoStation M2 oder M2 loco
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Montiere den Router an einem geeigneten Ort.
@@ -96,9 +97,9 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 #### So kannst du mitmachen
 
 * Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * Ubiquiti NanoStation M5 \\
+  * Ubiquiti Litebeam AC Gen2 \\
     (bis ca. 5&nbsp;km)
-  * Ubiquiti NanoBridge M5 \\
+  * Ubiquiti Powerbeam \\
     (bis ca. 10&nbsp;km)
 * Schalte die Originalfirmware der 5&nbsp;GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
 * Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
@@ -110,7 +111,7 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 ## Wo kann ich meine Fragen stellen?
 
-Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten scheue dich nicht uns zu [kontaktieren][kontakt].
+Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten schaue gerne im [Chat](https://chat.ffmuc.net) vorbei und scheue dich nicht uns zu [kontaktieren][kontakt].
 
 Die Anleitung basiert auf [https://berlin.freifunk.net/participate/overview/][berlin] \\
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
@@ -119,6 +120,7 @@ Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
 [faq]: /faq/
 [firmware]: /firmware/
 [kontakt]: /kontakt/
-[router-flashen]: /router-flashen/
-[router-konfigurieren]: /router-konfigurieren/
 [twitter]: https://twitter.com/freifunkmuc
+[router-flashen]: https://ffmuc.net/wiki/doku.php?id=knb:download#router_flashen_-_aufspielen_der_freifunk-firmware
+[router-konfigurieren]: https://ffmuc.net/wiki/doku.php?id=knb:gui
+
