@@ -11,7 +11,7 @@ customjs:
 Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
 
 Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
-
+<button id="theme-toggle" onclick="modeSwitcher()"></button>
 <div class="row">
     <div class="col-sm-6">
         <div class="list-group">
