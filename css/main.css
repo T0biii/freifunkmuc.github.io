@@ -20,11 +20,10 @@ html[data-theme="dark"] {
   --light-text-color: hsl(0, 0%, 60%);
   --main-background-color: hsl(0, 0%, 10%);
   --main-text-color: hsl(0, 10%, 80%);
+  background-color:  hsl(0, 0%, 10%);
+  color:  hsl(0, 0%, 60%);
 }
-body {
-  background-color: #000; 
-  color: #fff;
-}
+
 @media (prefers-color-scheme: dark) {
   html {
     content: "dark";
