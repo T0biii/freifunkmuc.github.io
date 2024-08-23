@@ -73,9 +73,14 @@ footer:
       icon: "fa fa-fw fa-book"
       url: "/privacy"
 
+
+head_scripts:
+  - 
 # Footer Scripts      
 footer_scripts:
   - /assets/js/main.min.js
+after_footer_scripts:
+  - 
 
 # Reading Files
 include:
