@@ -72,8 +72,10 @@ footer:
     - label: "Datenschutzerklärung"
       icon: "fa fa-fw fa-book"
       url: "/privacy"
-      
 
+# Footer Scripts      
+footer_scripts:
+  - /assets/js/main.min.js
 
 # Reading Files
 include:
